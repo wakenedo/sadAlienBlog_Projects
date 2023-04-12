@@ -1,0 +1,28 @@
+import '../styles/global.css'
+
+import { AboutUsIntro } from "components/AboutUs/AboutUsIntro";
+import { Header } from "components/Header";
+import type { NextPage } from "next";
+import { Footer } from 'components/Footer';
+import AboutUsHistory from 'components/AboutUs/AboutUsHistory';
+import { AboutUsValues } from 'components/AboutUs/AboutUsValues';
+import { AboutUsTeam } from 'components/AboutUs/AboutUsTeam';
+
+
+
+const examplePage: NextPage = () => {
+  return (
+    <>
+      <title>{` Carbon Protocol | Sobre Nós  `}</title>
+      <Header />
+      <AboutUsIntro />
+      <AboutUsHistory />
+      <AboutUsValues />
+      <AboutUsTeam />
+      <Footer />
+    </>
+  );
+};
+
+export default AboutUs;
+

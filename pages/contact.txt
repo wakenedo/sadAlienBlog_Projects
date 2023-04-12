@@ -1,0 +1,19 @@
+import '../styles/global.css'
+import type { NextPage } from "next";
+import { Footer } from 'components/Footer';
+import { Header } from 'components/Header';
+import { ContactForm } from 'components/Contact/ContactForm';
+import { ContactIntro } from 'components/Contact/ContactIntro';
+
+
+const Contact: NextPage = () => {
+  return (
+    <>
+      <title>{`  Sad Alien | Contact  `}</title>
+      <Header />
+      <ContactForm />
+    </>
+  );
+};
+
+export default Contact;
